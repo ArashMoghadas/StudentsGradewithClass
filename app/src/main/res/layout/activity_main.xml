@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Order Coffee"
+        android:text="Students Evaluation"
         android:textSize="23sp"
         android:textColor="#462906"
         android:gravity="center"/>
@@ -41,24 +41,24 @@
             android:textSize="17sp"/>
 
         <EditText
-            android:id="@+id/et_count"
+            android:id="@+id/et_grade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:hint="Count"
+            android:hint="Average of Grades"
             android:textSize="17sp"/>
 
         <Button
-            android:id="@+id/bt_order"
+            android:id="@+id/bt_evaluate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#e96d0e"
             android:textStyle="bold"
-            android:text="Order"/>
+            android:text="Evaluate"/>
 
         <TextView
-            android:id="@+id/tv_summary"
+            android:id="@+id/tv_evaluation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
