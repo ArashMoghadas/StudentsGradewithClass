@@ -1,9 +1,9 @@
 package com.example.asus.studentsgradewithclass;
 
 public class Students {
-    public String name;
-    public String address;
-    public int grade;
+    private String name;
+    private String address;
+    private int grade;
 
     public String setName(String name){
         if (name.equals("")){
